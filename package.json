@@ -1,7 +1,7 @@
 {
   "name": "unity-package-decrypt",
   "version": "0.1.0",
-  "description": "",
+  "description": "> Note: uses es6 classes, see [this](http://node.green/#ES2015-functions-class) for node version compatibility",
   "main": "index.js",
   "directories": {
     "test": "test"
@@ -17,5 +17,14 @@
   "license": "MIT",
   "devDependencies": {
     "mocha": "^3.2.0"
-  }
+  },
+  "dependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bengreenier/unity-package-decrypt.git"
+  },
+  "bugs": {
+    "url": "https://github.com/bengreenier/unity-package-decrypt/issues"
+  },
+  "homepage": "https://github.com/bengreenier/unity-package-decrypt#readme"
 }
