@@ -1,0 +1,21 @@
+{
+  "name": "unity-package-decrypt",
+  "version": "0.1.0",
+  "description": "",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "keywords": [
+    "unity",
+    "package"
+  ],
+  "author": "Ben Greenier",
+  "license": "MIT",
+  "devDependencies": {
+    "mocha": "^3.2.0"
+  }
+}
