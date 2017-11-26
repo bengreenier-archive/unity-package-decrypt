@@ -1,6 +1,6 @@
 {
   "name": "unity-package-decrypt",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "> Note: uses es6 classes, see [this](http://node.green/#ES2015-functions-class) for node version compatibility",
   "main": "index.js",
   "directories": {

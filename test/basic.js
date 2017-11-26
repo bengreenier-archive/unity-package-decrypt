@@ -23,13 +23,15 @@ describe('UnityDecryptClient', () => {
         const src = fs.readFileSync(`${__dirname}/19248.pkg`, {
             encoding: 'binary'
         })
+
         const keySrc = fs.readFileSync(`${__dirname}/19248.pkg.key`).toString()
         
         client.decrypt(src, keySrc)
             .then((data) => {
                 assert.ok(typeof data != 'undefined')
-                assert.equal(data.length, 3171523)
+                assert.equal(data.length, 3291606)
                 done()
-            }, done)
+            })
+            .catch(done)
     })
 })
